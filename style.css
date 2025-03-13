@@ -1,0 +1,21 @@
+/* PALETA DE CORES */
+:root {
+    --cor0:#2C6ADE;
+    --cor1:#602CDE;
+    --cor2:#2C32DE;
+    --cor3:#2CA2DE;
+    --cor4:black;
+    --cor5:#9A2CDE;
+    --cor6:#DEA22C;
+    --cor7:#DE892C;
+    --cor8:#E0D7B7;
+
+}
+
+/* FONTES */
+
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
