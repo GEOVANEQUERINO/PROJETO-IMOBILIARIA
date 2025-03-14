@@ -1,14 +1,15 @@
 /* PALETA DE CORES */
 :root {
     --cor0:#2C6ADE;
-    --cor1:#602CDE;
+    --cor1:#26325E;
     --cor2:#2C32DE;
-    --cor3:#2CA2DE;
+    --cor3:#c4e4f5ee;
     --cor4:black;
     --cor5:#9A2CDE;
     --cor6:#DEA22C;
     --cor7:#DE892C;
     --cor8:#E0D7B7;
+    --cor9:rgba(53, 51, 51, 0.822);
 
 }
 
@@ -18,4 +19,111 @@
   font-family: "Rock Salt", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+/*CABEÇALHO DA PAGINA*/
+
+header {
+  padding: 25px;
+  background-color: var(--cor3);
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+}
+
+header img {
+  width: 160px;
+  height: 160px;
+}
+
+header h1{
+  font-family: "Rock Salt", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: var(--cor1);
+}
+
+.list-menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.list-menu ul li  {
+  list-style: none;
+  align-items: center;
+}
+
+.list-menu ul li a {
+  text-decoration: none;
+  color: var(--cor1);
+}
+
+.list-menu ul li a:hover {
+  font-size: 20px;
+  color: red;
+}
+
+/*PRIMEIRA SESSÃO*/
+
+.primeira_sessao{
+  padding: 300px;
+  background-image: url(img/card1.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.primeira_sessao button{
+  padding: 30px;
+  background-color: var(--cor9);
+  font-family: "Rock Salt", cursive;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.primeira_sessao button:hover {
+  opacity: 1.0;
+}
+
+/*SEGUNDA SESSÃO*/
+
+.segunda_sessao {
+  padding: 140px;
+  background-color: var(--cor3);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+  gap: 50px;
+}
+
+.segunda_sessao h2 {
+  text-align: center;
+  color: var(--cor1);
+  
+}
+
+.primeira {
+  padding: 30px;
+ border-right: solid 1px var(--cor5);
+ text-align: left;
+ font-size: 25px;
+}
+
+.segunda {
+  padding: 30px;
+  text-align: left;
+  font-size: 25px;
+}
+
+.terceira {
+  padding: 30px;
+ border-left: solid 1px var(--cor5);
+ text-align: left;
+ font-size: 25px;
 }
