@@ -14,6 +14,19 @@
 }
 
 /* FONTES */
+/* FONTE LOGO */
+.oleo-script-regular {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oleo-script-bold {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
 
 /*fonte para titulos*/
 .montserrat {
@@ -35,6 +48,10 @@
     "GRAD" 0;
 }
 
+body {
+  background-color: var(--cor3);
+}
+
 /*CABEÇALHO DA PAGINA*/
 
 header {
@@ -42,6 +59,7 @@ header {
   background-color: var(--cor3);
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 160px;
 }
 
@@ -51,10 +69,10 @@ header img {
 }
 
 header h1{
-  font-family: "Montserrat", sans-serif;
-  font-size: 36px;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-size: 60px;
+  font-style: italic;
   text-align: center;
   color: var(--cor1);
 }
@@ -108,11 +126,12 @@ header h1{
 /*SEGUNDA SESSÃO*/
 
 .segunda_sessao {
-  padding: 140px;
+  padding: 50px;
   background-color: var(--cor3);
   display: flex;
   flex-direction: row;
-  justify-content: center;  
+  justify-content: center; 
+  justify-content: space-evenly; 
   gap: 50px;
 }
 
@@ -121,8 +140,12 @@ header h1{
   text-align: center;
   color: var(--cor1);
   font-style: italic;
-  font-weight: 400;
-  
+  font-weight: 400;  
+}
+
+.segunda_sessao hr {
+  color: var(--cor5);
+  width: 80px;
 }
 
 .segunda_sessao p {
@@ -139,7 +162,7 @@ header h1{
 
 .primeira {
   padding: 30px;
- border-right: solid 1px var(--cor5);
+ 
  text-align: left;
  font-size: 20px;
 }
@@ -148,6 +171,7 @@ header h1{
   padding: 30px;
   text-align: left;
   font-size: 20px;
+  border-left: solid 1px var(--cor5);
 }
 
 .terceira {
@@ -159,23 +183,82 @@ header h1{
 
 /* TERCEIRA SESSÃO */
 
+.div-pai{
+  display: flex;
+}
+
 .terceira_sessao {
-  padding: 140px;
+  padding: 50px;
   background-color: var(--cor3);
   display: flex;
-  flex-direction: row;
-  justify-content: center;  
-  gap: 50px;
+  flex-direction: column;
 }
 
 .terceira_sessao img {
-  width: 300px;
+  width: 350px;
   height: 400px;
 }
 
+.titulo h3 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* QUARTA SESSÃO */
+
+.quarta_sessao {
+  padding: 50px;
+  border-top: #9A2CDE solid 1px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-image: url(img/corretor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+
+}
+
+.quarta_sessao:hover {
+  cursor: pointer;
+  opacity: 1.0;
+}
+
+.quarta_sessao h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+}
+
+.quarta_sessao p {
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;   
+}
+
+.quarta_sessao span {
+  color: var(--cor5);
+}
+
+/*RODAPÉ*/
+
 footer {
-  margin-top: 5%
-  text-align:center;
+  margin-top: 5%;
+  text-align: center;  
+
 }
 
 footer p {
@@ -185,7 +268,7 @@ footer p {
 footer a i {
     width: 50px;
     font-size: 30px;
-    color:  #5F6F52
+    color: var(--cor2);
     
 }
 
