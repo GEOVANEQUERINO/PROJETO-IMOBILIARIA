@@ -24,7 +24,7 @@
 
 <body>
     <!-- cabeçalho -->
-    <header>
+    <header id="cabecalho">
         <div>
             <img src="img/logotipo.png" alt="Logotipo JK">
         </div>
@@ -34,9 +34,9 @@
         <nav>
             <div class="list-menu">
                 <ul>
-                    <li><a href="#">VENDAS</a></li>
-                    <li><a href="#">LOCAÇÕES</a></li>
-                    <li><a href="#">PROJETOS</a></li>
+                    <li><a href="#detalhes">VENDAS</a></li>
+                    <li><a href="#segunda_sessao">LOCAÇÕES</a></li>
+                    <li><a href="#terceira_sessao">PROJETOS</a></li>
                 </ul>
             </div>
         </nav>
@@ -48,7 +48,7 @@
             </div>
         </section>
         <!-- AQUI VAI OS CARDS -->
-        <section class="segunda_sessao">
+        <section class="segunda_sessao" id="segunda_sessao">
             <div class="primeira">
                 <h2>VENDAS</h2>
                 <hr>
@@ -78,11 +78,11 @@
             </div>
         </section>
         <!-- AQUI VAI O CATÁLOGO -->
-        <section class="terceira_sessao">
+        <section class="terceira_sessao" id="terceira_sessao">
             <div class="titulo">
                 <h3>ALGUNS DOS NOSSOS EMPREENDIMENTOS</h3>
             </div>
-            <div class="div-pai">
+            <div class="div-pai" id="pai">
                 <div class="catalogo1">
                     <img src="img/casa-card1.jpg" alt="imagem de casa">
                     <iframe
@@ -107,14 +107,14 @@
             </div>
         </section>
         <!-- AQUI VAI O ENDEREÇO DA IMOBILIARIA -->
-        <section class="quarta_sessao">
+        <section class="quarta_sessao" id="quarta_sessao">
             <div class="localizacao">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.920736538771!2d-46.45174432769113!3d-23.53535311379986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66bc8c86908b%3A0x36962a2d69f3db06!2sObra%20Social%20Dom%20Bosco!5e0!3m2!1spt-BR!2sbr!4v1741909365809!5m2!1spt-BR!2sbr"
                     width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div>
+            <div id="detalhes">
                 <h3>VENHA NOS CONHECER</h3>
                 <p>Venha conhecer a Imobiliária JK e encontre o imóvel dos seus sonhos com segurança e facilidade! Entre
                     em contato e descubra as melhores oportunidades para compra, venda e locação.
@@ -142,6 +142,7 @@
         <p class="autor">
             PRODUZIDO POR GEOVANE Q VALENTIM 2025&#169 <!-- &#169 simbolo de copyright -->
         </p>
+        <a href="#cabecalho">TOPO DA PAGINA</a>
 
     </footer>
     <!-- CÓDIGO PARA INCORPORAR A FUNÇÃO LIBRAS NA PAGINA -->

@@ -48,6 +48,14 @@
     "GRAD" 0;
 }
 
+/*SELETOR UNIVERSAL*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  scroll-behavior: smooth; /* PARA SUAVISAR NAS TRANSIÇÕES*/
+}
+
 body {
   background-color: var(--cor3);
 }
@@ -126,7 +134,7 @@ header h1{
 /*SEGUNDA SESSÃO*/
 
 .segunda_sessao {
-  padding: 50px;
+  padding: 80px;
   background-color: var(--cor3);
   display: flex;
   flex-direction: row;
@@ -146,6 +154,9 @@ header h1{
 .segunda_sessao hr {
   color: var(--cor5);
   width: 80px;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .segunda_sessao p {
