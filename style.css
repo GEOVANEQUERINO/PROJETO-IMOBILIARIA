@@ -288,3 +288,183 @@ footer a i {
     font-size: 10px;
     padding: 10px;
 }
+
+/* -- Página 02 --*/
+
+.banner_inicial{
+  
+}
+
+.imagem_casa {
+  padding: 250px;
+  background-image: url(img/casa1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.imagem_casa input {
+  font-size: 20px;
+  height: 40px;
+  color: aliceblue;
+  border-radius: 5px;
+  border: none;
+}
+
+.box-1 {
+  padding: 100px;
+  justify-content: center;
+  
+}
+
+.titulo {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+
+.calculadora {
+  font-family: "Roboto Serif", serif;
+  padding-bottom: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+  border-style: none none dotted;
+  border-color: #9A2CDE;
+}
+
+.fotos {
+  font-family: "Roboto Serif", serif;
+  padding-bottom: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+  border-style: none none dotted;
+  border-color: #9A2CDE;
+}
+
+.corretor {
+  font-family: "Roboto Serif", serif;
+  padding-bottom: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+  border-style: none none dotted;
+  border-color: #9A2CDE;
+}
+
+.beneficio {
+  font-family: "Roboto Serif", serif;
+  padding-bottom: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+  border-style: none none dotted;
+  border-color: #9A2CDE;
+}
+
+.aluguel {
+  font-family: "Roboto Serif", serif;
+  padding-bottom: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+  border-style: none none dotted;
+  border-color: #9A2CDE;
+}
+
+/* SESSÃO BOX 2*/
+
+.box-2 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.contato {
+  padding: 30px;
+  width: 50%;
+  border-radius: 20px;
+  background-color:var(--cor0);
+}
+
+.contato p {
+  font-family: "Roboto Serif", serif;
+  color: white;
+  line-height: 3.0;
+}
+
+.contato h2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.contato button{
+  padding: 10px;
+  width: 30%;
+  border-radius: 10px;
+  border: none;
+  background-color:var(--cor2);
+  color: white;
+  align-items: center;
+  margin: 0 3px;
+}
+
+.contato button i {
+  margin-right: 10px;
+}
+
+.contato button:hover {
+  cursor: pointer;
+}
+
+/*SESSÃO CARDS*/
+.banner_cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 80px;
+}
+
+.cards1 {
+  padding: 150px;
+  border-radius: 5px;
+  width: 100%;
+  background-image: url(img/Design\ sem\ nome.png); 
+  background-position: cover;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-color: white;
+  
+}
+
+.cards1 p {
+  margin-top: 70px;
+  
+}
+
+.cards2 {
+  padding: 150px;
+  border-radius: 5px;
+  background-image: url(img/Design\ sem\ nome\ \(1\).png); 
+  background-position: cover;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.cards2 p {
+  margin-top: 70px;
+  
+}
+
+.cards3 {
+  padding: 150px;
+  border-radius: 5px;
+  background-image: url(img/Design\ sem\ nome\ \(2\).png); 
+  background-position: cover;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.cards3 p {
+  margin-top: 70px;
+  
+}
