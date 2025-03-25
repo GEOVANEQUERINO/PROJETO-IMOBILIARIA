@@ -104,6 +104,7 @@ header h1{
 .list-menu ul li a:hover {
   font-size: 20px;
   color: red;
+  transition: 0.8s;
 }
 
 /*PRIMEIRA SESSÃO*/
@@ -117,18 +118,19 @@ header h1{
 }
 
 .primeira_sessao button{
-  padding: 30px;
+  padding: 10px;
+  width: 120px;
   background-color: var(--cor9);
   font-family: "Rock Salt", cursive;
-  color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   opacity: 0.5;
   cursor: pointer;
 }
 
 .primeira_sessao button:hover {
   opacity: 1.0;
+  transition: 0.8s;
 }
 
 /*SEGUNDA SESSÃO*/
@@ -279,8 +281,12 @@ footer p {
 footer a i {
     width: 50px;
     font-size: 30px;
-    color: var(--cor2);
-    
+    color: var(--cor2);    
+}
+
+footer a i:hover {
+  font-size: 40px;
+  transition: 0.6s;
 }
 
 .autor {
@@ -290,10 +296,6 @@ footer a i {
 }
 
 /* -- Página 02 --*/
-
-.banner_inicial{
-  
-}
 
 .imagem_casa {
   padding: 250px;
@@ -423,48 +425,89 @@ footer a i {
 }
 
 .cards1 {
-  padding: 150px;
-  border-radius: 5px;
-  width: 100%;
+  padding: 100px;
+  border-radius: 15px;
   background-image: url(img/Design\ sem\ nome.png); 
   background-position: cover;
   background-size: 200px;
   background-repeat: no-repeat;
   background-color: white;
+  box-shadow: 10px 10px 20px black;
   
 }
 
 .cards1 p {
-  margin-top: 70px;
-  
+  margin-top: 150px;
+  width: 200px;
+  font-family: "Roboto Serif", serif;
+  text-align: justify;  
+}
+
+.cards1 i {
+  color: var(--cor6);
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.cards1:hover {
+  box-shadow: 20px 20px 30px black;
+  transition: 0.8s;
 }
 
 .cards2 {
-  padding: 150px;
-  border-radius: 5px;
+  padding: 100px;
+  border-radius: 15px;
   background-image: url(img/Design\ sem\ nome\ \(1\).png); 
   background-position: cover;
   background-size: 200px;
   background-repeat: no-repeat;
   background-color: white;
+  box-shadow: 10px 10px 20px black;
 }
 
 .cards2 p {
-  margin-top: 70px;
-  
+  margin-top: 150px;
+  width: 200px;
+  font-family: "Roboto Serif", serif;
+  text-align: justify;  
+}
+
+.cards2 i {
+  color: var(--cor6);
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.cards2:hover {
+  box-shadow: 20px 20px 30px black;
+  transition: 0.8s;
 }
 
 .cards3 {
-  padding: 150px;
-  border-radius: 5px;
+  padding: 100px;
+  border-radius: 15px;
   background-image: url(img/Design\ sem\ nome\ \(2\).png); 
   background-position: cover;
   background-size: 200px;
   background-repeat: no-repeat;
   background-color: white;
+  box-shadow: 10px 10px 20px black;
 }
 
 .cards3 p {
-  margin-top: 70px;
-  
+  margin-top: 150px;
+  width: 200px;
+  font-family: "Roboto Serif", serif;
+  text-align: justify;  
+}
+
+.cards3 i {
+  color: var(--cor6);
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.cards3:hover {
+  box-shadow: 20px 20px 30px black;
+  transition: 0.8s;
 }
