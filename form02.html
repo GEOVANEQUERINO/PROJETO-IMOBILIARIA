@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/21b9934e7f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="form02.css">
     <title>FORMULARIO</title>
 </head>
 <body>
@@ -41,18 +41,29 @@
     <main>
         <div class="form">
             <div class="titulo">
-                <h2>Entre e Acesse</h2>
-                <p>Conheça as nossas ofertas e descontos exclusivos para clientes da JK imobiliaria.</p>
+                <h2>Cadastre-se</h2>
             </div>
             <div class="formulario">
                 <form action="">
+                    <label for="input-name">NOME</label>
+                    <input type="text" class="input-name" name="input-name" id="input-name" placeholder="Digite seu nome" required> <br>
+
                     <label for="input-email" class="label">EMAIL</label>
                     <input type="email" class="input-email" name="input-email" id="input-email" placeholder="Digite seu e-mail" required> <br>
 
+                    <label for="input-dtNascimento" class="label">DATA NASCIMENTO</label>
+                    <input type="date" class="input-dtNascimento" name="input-dtNascimento" id="input-dtNascimento"required> <br>
+
+                    <label for="input-pais" class="input-pais">PAIS</label>
+                    <select id="country" name="country" class="country">
+                        <option value="australia">AUSTRALIA</option>
+                        <option value="canada">CANADA</option>
+                        <option value="usa">USA</option>
+                        <option value="brasil">BRASIL</option>
+                      </select> <br>
+
                     <label for="input-password" class="label">SENHA</label>
                     <input type="password" class="input-password" name="input-password" id="input-password" placeholder="Digite sua senha" required> <br>
-
-                    <a href="form02.html">Não tem login ? Cadastre-se</a>
 
                     <input type="submit" value="Cadastre-se" class="btn-form">
                 </form>

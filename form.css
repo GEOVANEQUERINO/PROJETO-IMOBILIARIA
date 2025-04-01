@@ -143,6 +143,12 @@ main {
   font-family: "Montserrat", sans-serif;
 }
 
+.titulo p {
+  font-family: "Roboto Serif", serif;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
 input[type=text],
 [type=password],
 [type=email],
@@ -161,7 +167,7 @@ input[type=submit] {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
-  margin: 8px 0;
+  margin: 30px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -173,6 +179,13 @@ input[type=submit]:hover {
 
 label {
   font-family: "Roboto Serif", serif;
+}
+
+.formulario a {
+  font-family: "Roboto Serif", serif;
+  color: var(--cor5);
+  margin: 30px 30px 30px;
+
 }
 
 /*RODAPÉ*/

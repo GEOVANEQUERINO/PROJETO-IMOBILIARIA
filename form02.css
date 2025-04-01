@@ -1,0 +1,206 @@
+/*SELETOR UNIVERSAL*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    /* PARA SUAVISAR NAS TRANSIÇÕES*/
+  }
+  
+  /* PALETA DE CORES */
+  :root {
+    --cor0: #2C6ADE;
+    --cor1: #26325E;
+    --cor2: #2C32DE;
+    --cor3: #c4e4f5ee;
+    --cor4: black;
+    --cor5: #9A2CDE;
+    --cor6: #DEA22C;
+    --cor7: #DE892C;
+    --cor8: #E0D7B7;
+    --cor9: rgba(53, 51, 51, 0.822);
+  
+  }
+  
+  /* FONTES */
+  /* FONTE LOGO */
+  .oleo-script-regular {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .oleo-script-bold {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  
+  /*fonte para titulos*/
+  .montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  /* fonte para texto*/
+  
+  .roboto-serif {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "GRAD" 0;
+  }
+  
+  body {
+    background-color: var(--cor3);
+  }
+  
+  /*CABEÇALHO DA PAGINA*/
+  
+  header {
+    padding: 25px;
+    background-color: var(--cor3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+  }
+  
+  header img {
+    width: 160px;
+    height: 160px;
+  }
+  
+  header h1 {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    color: var(--cor1);
+  }
+  
+  nav {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+  }
+  
+  nav:hover {
+    font-size: 20px;
+    transition: 0.8s;
+  }
+  
+  .list-menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .list-menu ul li {
+    list-style: none;
+    align-items: center;
+  }
+  
+  .list-menu ul li a {
+    text-decoration: none;
+    color: var(--cor1);
+  }
+  
+  .list-menu ul li a:hover {
+    font-size: 20px;
+    color: red;
+    transition: 0.8s;
+  }
+  
+  /* TAG MAIN SESSAO FORMULARIO*/
+  
+  main {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  
+  }
+  
+  .form {
+    width: 400px;
+    height: 500px;
+    background-color: aquamarine;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px black;
+  }
+  
+  .titulo h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  input[type=text],
+  [type=password],
+  [type=email],
+  [type=date],
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  label {
+    font-family: "Roboto Serif", serif;
+  }
+  
+  /*RODAPÉ*/
+  
+  footer {
+    margin-top: 5%;
+    text-align: center;
+  
+  }
+  
+  footer p {
+    font-size: 15px;
+  }
+  
+  footer a i {
+    width: 50px;
+    font-size: 30px;
+    color: var(--cor2);
+  }
+  
+  footer a i:hover {
+    font-size: 40px;
+    transition: 0.6s;
+  }
+  
+  .autor {
+    font-style: italic;
+    font-size: 10px;
+    padding: 10px;
+  }
